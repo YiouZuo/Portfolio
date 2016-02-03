@@ -11,7 +11,7 @@ YOU'LL NOT BE ABLE TO RUN THIS CODE AND REPRODUCE THE RESULTS. This file serves 
 
 
 
-File AutoCheck.ipynb:
+File NeighborComparison.ipynb:
 
 
 Input files include:
