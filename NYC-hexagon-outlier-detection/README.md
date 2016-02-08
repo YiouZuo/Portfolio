@@ -54,5 +54,7 @@ The code includes 4 steps:
 
 3. Compare each hexagon's footfall with the average of its neighbours
 
-(Tobe added: 4. Run a clustering to detect any outlier)
+4. Run a clustering to detect any outlier
+
+ 
 
