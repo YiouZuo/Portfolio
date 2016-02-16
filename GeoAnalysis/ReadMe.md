@@ -20,13 +20,13 @@ harder to staff than salaried NAM's, so my task is to investigate the potential 
 with moving some of the national accounts that are currently managed by TM's over to NAM's. 
 Initially, the client wants to quantify the percent of national accounts currently managed by
 TM's that should remain the responsibility of TM's rather than being shifted to NAM's.
-The client has requested the following initial deliverables:
+The client has requested the following initial deliverables:  
 1) A percentage of national accounts to be excluded from the shift to NAM's;  
 2) A map of the excluded accounts;  
 3) An explanation of the approach to establishing the exclusions.  
 It's acceptable to limit the initial analysis to 5 or 6 divisions to speed up processing time if needed.
 
-When discussing analytical approaches with the client, a few assumptions/comments emerged:
+When discussing analytical approaches with the client, a few assumptions/comments emerged:  
 1) Visiting 3-4 accounts in a day is reasonable and productive.  
 2) No less than 20% of the accounts should be left with TM's.  
 3) All accounts are, technically speaking, national accounts, but some are being served by street
