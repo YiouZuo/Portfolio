@@ -1,6 +1,6 @@
 GeoAnalysis Case Study
 
-The detailed scenario is described below. To highlight, the goal was to investigate the potential savings associated with moving some of the accounts currently managed by one team to another team given some assumptions. I provided three possible approaches (Thiessen Polygon Method, Standard Distance Method and Buffer Method), made a recommendation (Thiessen Polygon Method) based on cost saving analysis. All the geoanalyses were done in ArcGIS using existing modules, hence I’m not providing the associated files. The data analysis was done in STATA, documented in GEO_Stata.log. The cost saving analysis was done using excel, documented in CostSavingAnalysis.xlsx. The final report is documented in GEOreport.pdf. 
+The detailed scenario is described below. To highlight, the goal was to investigate the potential savings associated with moving some of the accounts currently managed by one team to another team given some assumptions. I provided three possible approaches (Thiessen Polygon Method, Standard Distance Method and Buffer Method), made a recommendation (Thiessen Polygon Method) based on cost saving analysis. All the geoanalyses were done in ArcGIS using existing modules, hence I’m not providing the associated files. The data analysis was done in STATA, documented in GEO_Stata.txt. The cost saving analysis was done using excel, documented in CostSavingAnalysis.xlsx. The final report is documented in GEOreport.pdf. 
 
 Case Scenario Description:
 The client is a beverage service distributor undergoing a sales force transformation effort. They have
@@ -41,20 +41,20 @@ when running the analysis.
 divisions.
 
 The associated file geo_case_study_data_v03.csv contains the locations of the client's own customers, and which division, team and salesperson covers them. Data definitions for the file's fields are as follows:
-• ID – a unique number for each row of data.
-• Division – refers to the geographic division of the company that manages each customer site.
-• Customer Number – refers to each unique customer site.
-• Segment – a grouping of individual accounts into categories such as IND for industry or EDU for
+- ID – a unique number for each row of data.
+- Division – refers to the geographic division of the company that manages each customer site.
+- Customer Number – refers to each unique customer site.
+- Segment – a grouping of individual accounts into categories such as IND for industry or EDU for
 education.
-• Business Type – this speaks to whether the business is, in theory, national or local. Everything
+- Business Type – this speaks to whether the business is, in theory, national or local. Everything
 with an "NM" in here is theoretically national business; everything with an "LMC or "LMNC" is
 theoretically local business. Note: this doesn't mean that these accounts are actually served by
 national vs. local sales reps.
-• Covered By – designates which type of rep actually covers the account ("National Team" vs.
+- Covered By – designates which type of rep actually covers the account ("National Team" vs.
 "Street Team", and a few "Unclear" that are still worth mapping if they are NM accounts).
-• Salesperson ID – a unique code for each salesperson in the beverage distribution company.
-• Latitude – the Y coordinate for the customer location visited by the sales representative (in an
+- Salesperson ID – a unique code for each salesperson in the beverage distribution company.
+- Latitude – the Y coordinate for the customer location visited by the sales representative (in an
 EPSG:4326 spatial reference system).
-• Longitude – the X coordinate for the customer location visited by the sales representative (in an
+- Longitude – the X coordinate for the customer location visited by the sales representative (in an
 EPSG:4326 spatial reference system).
-• Location type – designates the accuracy of the location (based on a geocoding process).
+- Location type – designates the accuracy of the location (based on a geocoding process).
