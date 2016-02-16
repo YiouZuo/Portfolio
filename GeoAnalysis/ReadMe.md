@@ -1,8 +1,8 @@
-GeoAnalysis Case Study
+# GeoAnalysis Case Study
 
 The detailed scenario is described below. To highlight, the goal was to investigate the potential savings associated with moving some of the accounts currently managed by one team to another team given some assumptions. I provided three possible approaches (Thiessen Polygon Method, Standard Distance Method and Buffer Method), made a recommendation (Thiessen Polygon Method) based on cost saving analysis. All the geoanalyses were done in ArcGIS using existing modules, hence I’m not providing the associated files. The data analysis was done in STATA, documented in GEO_Stata.txt. The cost saving analysis was done using excel, documented in CostSavingAnalysis.xlsx. The final report is documented in GEOreport.pdf. 
 
-Case Scenario Description:
+## Case Scenario Description:
 The client is a beverage service distributor undergoing a sales force transformation effort. They have
 60+ divisions with approximately 50,000 customer sites. Each site is classified as either a "street"
 account (e.g. mom-and-pop restaurant) or a "national" account (e.g. hospitals). Typically, commissioned
@@ -21,22 +21,22 @@ with moving some of the national accounts that are currently managed by TM's ove
 Initially, the client wants to quantify the percent of national accounts currently managed by
 TM's that should remain the responsibility of TM's rather than being shifted to NAM's.
 The client has requested the following initial deliverables:
-1) A percentage of national accounts to be excluded from the shift to NAM's;
-2) A map of the excluded accounts;
-3) An explanation of the approach to establishing the exclusions.
+1) A percentage of national accounts to be excluded from the shift to NAM's;  
+2) A map of the excluded accounts;  
+3) An explanation of the approach to establishing the exclusions.  
 It's acceptable to limit the initial analysis to 5 or 6 divisions to speed up processing time if needed.
 
 When discussing analytical approaches with the client, a few assumptions/comments emerged:
-1) Visiting 3-4 accounts in a day is reasonable and productive.
-2) No less than 20% of the accounts should be left with TM's.
+1) Visiting 3-4 accounts in a day is reasonable and productive.  
+2) No less than 20% of the accounts should be left with TM's.  
 3) All accounts are, technically speaking, national accounts, but some are being served by street
-representatives.
+representatives.  
 4) We don't know where salespeople begin their days – some start from home, but we don't know
 their home addresses, and should not try to factor this in, as a reconfigured set of accounts may
-simply force rehiring of salespeople.
+simply force rehiring of salespeople.  
 5) Of the sites with National Team presence, some of these are National Chains (segment = "NCH"),
 which should be excluded (or, rather, treated as sites without regular National Team coverage)
-when running the analysis.
+when running the analysis.  
 6) There are potential obstacles associated with transferring customer sites owned by different
 divisions.
 
