@@ -11,7 +11,7 @@ BUCKET = scarlett-projects
 
 ## Run bash prompt in container
 bash:
-	docker-compose run  bash
+	docker-compose run scarlett-projects bash
 
 ## Run ipython in container
 ipython:

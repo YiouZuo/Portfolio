@@ -1,13 +1,12 @@
---extra-index-url https://pypi.rais.cucloud.net/pypi
 ipython
 jupyter
-jupyterthemes==0.18.3
+jupyterthemes
 matplotlib
-pandas
 pysal
-pyshp
 python-dotenv>=0.5.1
 scipy
 scikit-learn
 seaborn
 statsmodels
+geos
+proj
