@@ -1,12 +1,6 @@
-ipython
 jupyter
 jupyterthemes
-matplotlib
-pysal
-python-dotenv>=0.5.1
-scipy
 scikit-learn
 seaborn
 statsmodels
-geos
-proj
+pysal

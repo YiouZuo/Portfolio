@@ -13,10 +13,6 @@ BUCKET = scarlett-projects
 bash:
 	docker-compose run scarlett-projects bash
 
-## Run ipython in container
-ipython:
-	docker-compose run scarlett-projects ipython
-
 ## Run jupyter notebook server on 127.0.0.1
 jupyter:
 	docker-compose run --service-ports scarlett-projects jupyter notebook --no-browser --ip=* --allow-root
