@@ -4,7 +4,7 @@ RUN mkdir /home/project
 WORKDIR /home/project
 RUN conda install -c anaconda basemap
 RUN conda install -c conda-forge iris
-# Install scandir 
+# Install scandir
 RUN conda install -c conda-forge scandir
 
 # Install apt packages
