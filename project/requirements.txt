@@ -1,0 +1,6 @@
+jupyter
+jupyterthemes
+scikit-learn
+seaborn
+statsmodels
+pysal
