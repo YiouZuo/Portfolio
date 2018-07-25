@@ -1,9 +1,9 @@
 # outputs folder
-project/notebooks/.ipynb_checkpoints/*
+**/.ipynb_checkpoints
 
 # Python compiled files
 *.pyc
 
 # pycharm and mac folder
 .idea/
-*/.DS_Store
+**/.DS_Store
