@@ -5,7 +5,7 @@
 
 ## Build container
 container:
-	docker-compose build
+	docker-compose build --no-cache
 
 ## Run bash prompt in container
 bash:
