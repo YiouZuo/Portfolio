@@ -4,7 +4,7 @@ This is a sample file based on a project I did to find out that, in a given city
 You may find the hexagons generation here: https://github.com/teralytics/geohex
 
 
-## Files explanation
+## Files Explanation
 ### File Extract_Data.ipynb:
 
 YOU'LL NOT BE ABLE TO RUN THIS CODE AND REPRODUCE THE RESULTS. This file serves the only purpose of documenting how I extract NYC sample data.
