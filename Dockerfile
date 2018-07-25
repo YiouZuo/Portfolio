@@ -1,4 +1,5 @@
 # Install miniconda for packages not available in pip
+# I'm not pinning any version for miniconda here because the latest (as of 2018.7.25) version doesn't match any of the tags
 FROM continuumio/miniconda
 RUN mkdir /home/project
 WORKDIR /home/project
