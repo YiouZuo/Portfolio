@@ -1,16 +1,18 @@
-# Install IRIS and Basemap
+# Install miniconda for packages not available in pip
+# I'm not pinning any version for miniconda here because the latest (as of 2018.7.25) version doesn't match any of the tags
 FROM continuumio/miniconda
 RUN mkdir /home/project
 WORKDIR /home/project
 RUN conda install -c anaconda basemap
 RUN conda install -c conda-forge iris
-# Install scandir
+
+# install scandir here to avoid gcc error from pip install: https://github.com/ContinuumIO/docker-images/pull/69
 RUN conda install -c conda-forge scandir
 
 # Install apt packages
 RUN apt-get update && apt-get install -y \
     python-dev
-COPY project/requirements.txt /home/project
+COPY projects/requirements.txt /home/project
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
