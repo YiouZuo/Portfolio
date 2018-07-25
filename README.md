@@ -7,12 +7,12 @@ To run the code, please do the following:
 1. Install Docker
 2. Setup the code repository locally:
 ```
-$ git clone https://github.com/YiouZuo/Project.git
+$ git clone https://github.com/YiouZuo/Portfolio.git
 ```
 3. Build the base containers for development:
 
 ```
-$ docker-compose build
+$ make container
 ```
 4. Use Jupyter to checkout my notebooks.
 ```
