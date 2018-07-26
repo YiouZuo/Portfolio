@@ -17,6 +17,5 @@ $ make container
 4. Use Jupyter to checkout my notebooks.
 ```
 $ make jupyter
-
 ```
 The terminal output from this command will include a URL for your local jupyter server. You can copy and paste the URL to a browser and start to work on it.
