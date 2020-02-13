@@ -1,6 +1,10 @@
-scarlett-projects:
-  build: .
-  volumes:
-    - ./project:/home/project
-  ports:
-    - "8888:8888"
+version: "3"
+
+
+services:
+  scarlett-projects:
+    build: .
+    volumes:
+      - ./project:/home/project
+    ports:
+      - "8888:8888"
